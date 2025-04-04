@@ -1,0 +1,52 @@
+# Node modules (dependencies)
+node_modules/
+
+# Environment variables (contains secrets like API keys)
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build files
+dist/
+build/
+
+# Temporary files
+tmp/
+temp/
+
+# Debugging files
+*.swp
+*.swo
+*.swn
+
+# OS-specific files (Windows)
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor-specific files (VS Code, JetBrains, etc.)
+.vscode/
+.idea/
+
+# Dependency lock files (optional)
+package-lock.json
+yarn.lock
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Uploads (if handling file uploads)
+uploads/
+
+# Docker
+docker-compose.override.yml
+
+# Misc
+*.bak
+*.cache
